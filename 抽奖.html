@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+            font-family: "微软雅黑";
+            font-weight: bolder;
+            margin: 0 auto;
+            line-height: 300px;
+            font-size: 50px;
+            background-color: aqua;
+            text-align: center;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        开
+    </div>
+</body>
+<script>
+    document.querySelector('.box').onclick=function(){
+        var box=document.querySelector('.box');
+        box.innerHTML='宸宸宝宝天天开心'
+        box.style.backgroundColor='#fff'
+        box.style.width='400px'
+        box.style.fontSize='40px'
+        box.style.lineHeight='60px'
+    }
+</script>
+</html>
